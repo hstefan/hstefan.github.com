@@ -6,7 +6,7 @@ layout: default
 <div id="main_content_wrap" class="outer">
 	<div class="inner">
 		<a href="{{page.url}}"><h2> {{page.title}} </h2></a>
-		<h5> {{page.date || "date: %Y-%m-%d"}} </h5>
+		<h5> {{page.date || date: "%Y-%m-%d"}} </h5>
 		{{page.content}}
 	</div>
 </div>
