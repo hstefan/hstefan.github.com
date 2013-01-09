@@ -4,9 +4,18 @@ layout: default
 
 <!-- MAIN CONTENT -->
 <div id="main_content_wrap" class="outer">
-	<div class="inner">
+	<div class="inner">	
 		<a href="{{page.url}}"><h2> {{page.title}} </h2></a>
-		<div class="post_date"> {{page.date || date: "%Y-%m-%d"}} </div>
+		
+		<div class="post_date"> 
+			{% if page.previous %}
+				<a href="{{page.previous.url}}">&laquo;&laquo;</a>
+			{% endif %}
+			{{page.date || date: "%Y-%m-%d"}}
+			{% if page.next %}
+				<a href="{{page.next.url}}">&raquo;&raquo;</a>
+			{% endif %}	
+		</div>
 		{{content}}
 	</div>
 </div>
