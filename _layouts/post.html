@@ -14,12 +14,13 @@ layout: default
 			{{page.date || date: "%Y-%m-%d"}}
 			{% if page.next %}
 				<a href="{{page.next.url}}">&raquo;&raquo;</a>
-			{% endif %}	
+			{% endif %}
 		</div>
 		{{content}}
-	{% if page.comments %}
-		{% include "disqus.html" %}
-    {% endif %}
+	{% if page.nocomments %}
+	{% else %}
+		{% include disqus.html %}
+	{% endif %}
 	</div>
 </div>
 
