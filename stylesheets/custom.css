@@ -1,0 +1,36 @@
+.page-navbar {
+	margin: 0 auto 0;
+	overflow: hidden;
+	max-width: 645px;
+}
+
+.page-navbar .page-navbar-container .page-nav {
+	font-size: 14px;
+	list-style: none;
+	margin: 0 0 0 -1.25em;
+	padding-left: 0;
+} 
+
+.page-navbar .page-navbar-container .page-nav li {
+	float: left;
+	position: relative;
+	list-style: none;
+}
+
+.page-navbar .page-navbar-container .page-nav a {
+	color: #eee;
+	display: block;
+	line-height: 2.5em;
+	padding: 0 1.0em;
+	text-decoration: none;
+	background-color: #222;
+	border-style: solid;
+	border-color: #000;
+	border-width: thin;
+}
+.page-navbar .page-navbar-container .page-nav a:hover,
+.page-navbar .page-navbar-container .page-nav a:focus {
+	color: #222;
+	background: #fff;
+}
+
