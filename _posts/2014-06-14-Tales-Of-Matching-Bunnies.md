@@ -2,6 +2,7 @@
 title: Tales of Matching Bunnies
 date: 2014-06-14 18:10
 layout: post
+comments: true
 ---
 Hello there.
 
