@@ -12,7 +12,6 @@
   </head>
 
   <body>
-
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
@@ -20,11 +19,7 @@
           <h2 id="project_tagline"></h2>
         </header>
     </div>
-
-	{{ content }}
-
-	{% include "disquscount.html" %}
-
+    {{ content }}
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
@@ -32,7 +27,6 @@
       </footer>
     </div>
 
-    
-
+    {% include disquscount.html %}
   </body>
 </html>
