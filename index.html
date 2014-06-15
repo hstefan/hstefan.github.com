@@ -8,13 +8,13 @@ layout: default
 		<div class="inner">
 			<a href="{{post.url}}"><h2> {{post.title}} </h2> </a>
 			<div class="post_date">
-				{{post.date || date: "%Y-%m-%d"}}
-				{% if post.nocomments %}
-				{% else %}
-				<a href="{{post.url}}#disqus_thread"></a>
-				{% endif %}
+				{{post.date || date_to_rfc822}}
 			</div>
 			{{post.content}}
+			{% if post.nocomments %}
+			{% else %}
+			<a href="{{post.url}}#disqus_thread" style="text-align:center"></a>
+			{% endif %}
 		</div>
 	{% endfor %}
 </div>
