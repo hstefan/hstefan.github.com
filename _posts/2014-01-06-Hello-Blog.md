@@ -1,6 +1,6 @@
 ---
 title: Hello Blog!
-date: 2014-01-06 00:17 -02:00
+date: 2014-01-06 00:17:00 -0200
 layout: post
 ---
 Hello there.

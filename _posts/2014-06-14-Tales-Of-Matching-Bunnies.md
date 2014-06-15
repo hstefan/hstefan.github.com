@@ -1,6 +1,6 @@
 ---
 title: Tales of Matching Bunnies
-date: 2014-06-14 18:10 -03:00
+date: 2014-06-14 18:10:00 -0300
 layout: post
 comments: true
 ---
