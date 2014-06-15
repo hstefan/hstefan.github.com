@@ -11,7 +11,7 @@ layout: default
 			{% if page.previous %}
 				<a href="{{page.previous.url}}">&laquo;&laquo;</a>
 			{% endif %}
-			{{page.date || date: "%Y-%m-%d"}}
+			{{page.date || date_to_rfc822}}
 			{% if page.next %}
 				<a href="{{page.next.url}}">&raquo;&raquo;</a>
 			{% endif %}
