@@ -4,11 +4,20 @@ layout: default
 
 <!-- MAIN CONTENT -->
 <div id="main_content_wrap" class="outer">
-	<div class="inner">
-		<a href="/files/TalesOfMatchingBunnies.zip"><h2> Tales of Matching Bunnies </h2>
-		<img src="/images/tales-of-matching-bunnies.png" alt="Tales of Matching Bunnies"/></a>
-		<br>
-		A card matching game written using SDL2 and C++.
-	</div>
+	{% for post in site.posts limit:10 %}
+		{% if post.demo  %}
+			<div class="inner">
+				<a href="{{post.url}}"><h2> {{post.title}} </h2> </a>
+				<div class="post_date">
+					{{post.date || date_to_rfc822}}
+				</div>
+				{{post.content}}
+				{% if post.nocomments %}
+				{% else %}
+				<a href="{{post.url}}#disqus_thread" style="text-align:center"></a>
+				{% endif %}
+			</div>
+		{% endif %}
+	{% endfor %}
 </div>
 
