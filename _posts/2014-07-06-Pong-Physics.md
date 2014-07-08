@@ -29,6 +29,6 @@ more control on the player more control on where they want the ball to go.
 
 The behaviour can be achieved by applying the [vector form equation of a specular reflection](http://en.wikipedia.org/wiki/Snell%27s_law#Vector_form).
 To do that, we need to evaluate the equation of the normals at a given **t**, where **t** is the normalized height where the
-ball hitted the paddle.
+ball hit the paddle.
 
 And that's pretty much it. Have fun!
