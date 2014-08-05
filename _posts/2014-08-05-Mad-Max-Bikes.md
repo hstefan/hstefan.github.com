@@ -9,9 +9,9 @@ demo: true
 ![Mad Max Bikes](/images/MadMaxBikes.png)
 </div>
 
-This game was developed in 48 hours during a game jam we organized in the city. We formed a team with Diogo Rodrigues and 
-[Orlando Fonseca Junior](https://twitter.com/smashrs) in charge of the art and [me](https://twitter.com/hstefan) and 
-[Yuri Schlesner](https://twitter.com/yuriks) programming. Our game is based on one of the themes drawn at the event
+This game was developed in 48 hours during a game jam we organized in the city. We formed a team with Diogo Rodrigues and
+[Orlando Fonseca Junior](https://twitter.com/smashrs) in charge of the art and [me](https://twitter.com/hstefan) and
+[Yuri Schlesner](https://twitter.com/yuriks) programming. Our game is based on one of the themes drawn at the event,
 "Mad Max Bicycles".
 
 The initial idea was a local multiplayer joust game with bicycles, where the players would fight using spears and
