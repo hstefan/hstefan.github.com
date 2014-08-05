@@ -22,5 +22,5 @@ We changed our game to a competition whe player picks the most orbs until time r
 we wanted before, but the game turned out to be pretty fun to play. Plus, I think the visuals of the whole thing are
 awesome (I'm even using our background as a wallpaper right now).
 
-You can download the game [here](/files/MadMaxBicycles.zip). The controls for player one are left, right and up arrows,
+You can download the game [here](/files/MadMaxBikes.zip). The controls for player one are left, right and up arrows,
 and for the second player A, D and W.
