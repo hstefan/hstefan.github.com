@@ -9,7 +9,7 @@ demo: true
 ![We Are Fox](/images/now-adventures.png)
 </div>
 
-Last month me and another programmer friend went to Porto Alegre and participated in the [Global Game Jam](http://globalgamejam.org/)
+Last month me and [yuriks](https://twitter.com/yuriks) went to Porto Alegre and participated in the [Global Game Jam](http://globalgamejam.org/)
 at the UNISINOS site. It was a very nice little journey, we met with a group of artists that also went there
 together and were interested in learning other technologies we had experience with, since they've only used Construct 2 before the jam.
 
